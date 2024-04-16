@@ -2,38 +2,18 @@
 sidebar_position: 4
 ---
 
-# Overview of Bitlayer's Design
+# Technical Architecture
 
-Bitlayer has revolutionized the verification process for Layer 2 transactions using optimistic execution, while keeping the Bitcoin protocol intact. Its architecture comprises transaction processing, verification, and asset bridging components. Transaction processing involves a sequencer and a Layered Virtual Machine (LVM), optimizing transaction handling and computational efficiency. Transaction verification, managed by provers and challengers, ensures transaction validity and compliance with network rules. They collaborate to complete the entire process from Layer 2 transaction handling to Layer 1 confirmation, maintaining transaction security and integrity throughout the process. Bitlayer's assets bridge components further enhance its capabilities by enabling interoperability between Layer 2 and Layer 1 networks, facilitating secure asset transfer across blockchain layers.
+![Technical Architecture](Architecture.png)
 
-![The Architecture of Bitlayer](BitlayerDesign.png)
+Bitlayer's solution synthesizes the technical characteristics of BitVM, DLC|BitVM, and various XVMs (such as EVM, MoveVM), addressing three major challenges: Layer 1 verification, asset bridging, and enriching state transition expressions.
 
-## 1. Transaction Processing
+From an architectural standpoint, Bitlayer is a fairly typical example of a Rollup-equivalent model. To adapt to Bitcoin's unique programming model, BitVM has been introduced as a component for state challenges. Additionally, DLC|BitVM has been incorporated as a cross-chain component for messaging/assets, and the sequencer component's XVM, in theory, can support any Turing-complete programming language.
 
-Transaction Processing, as illustrated in the figure above, involves the sequencer and Layered Virtual Machine. These components are responsible for the entire transaction handling, starting from transaction acceptance to executing the output.
+The security of bridge assets has always been a key for Layer 2 solutions, with the core issue being the method of asset control. The most common industry approach is for Layer 2 platform operators to set up multi-signature accounts based on MPC-TSS (Multi-Party Computation - Threshold Signature Scheme) or Schnorr technology, into which users transfer their assets. 
 
-- **Sequencer**: Like other Layer 2 solutions, the sequencer in Bitlayer is responsible for collecting cached transactions and sorting them, serving as the entry point for transactions in Bitlayer.
-- **Layered Virtual Machine (LVM)**: The LVM is the computing component of Bitlayer, responsible for executing smart contracts and generating the latest states and zero-knowledge proof. Challengers then use this proof to challenge the execution results.
+This traditional approach results in users completely losing control of their assets, while the platform's multi-signature management capabilities can impact the security of those assets. In the wake of certain extreme cases, users have become dissatisfied with these types of multi-signature solutions. Models like DLC|BitVM that encompass two-party game scenarios may be a better direction. Leveraging DLC|BitVM technology, users could retain partial control over their assets and potentially achieve a secure escape with their assets.
 
-## 2. Transaction Verification
+The verification of Layer 2 state transitions operates on a principle comparable to proving one's innocence—an inherently secure process. Theoretically, the choice of network used for state verification determines the security level of the Layer 2 network. As one of the most secure networks available, using Bitcoin's base layer for verification enables Bitlayer to inherit Bitcoin's robust security measures, achieving an equivalent level of security to Bitcoin itself. The introduction of the BitVM paradigm challenges the conventional view that complex computations cannot be performed on Bitcoin, offering a new pathway for executing Layer 2 state verifications on the Bitcoin network.
 
-In Bitlayer, transaction verification is achieved by a zero-knowledge-based optimistic mechanism between the prover and challenger.
-
-- **Prover**: The Prover is responsible for submitting Layer 2 transactions and states of execution to the Layer 1 chain as described above. It also reveals zero-knowledge proofs on the chain when getting challenged.
-- **Challenger**: The Challenger is responsible for verifying the execution results submitted by the Prover through states of execution and zero-knowledge proof verification. If malicious behavior is detected, the Challenger initiates a challenge process to generate fraud proofs including invalid zero-knowledge proofs and submits them to the Layer 1 chain.
-
-## 3. Asset Bridge
-
-The Bridge acts as a crucial component in Bitlayer's infrastructure, facilitating the seamless movement of assets between Layer 2 and Layer 1. Its primary responsibility is to ensure the secure transfer of user assets through an innovative combination of OP-DLC and BitVM.
-
-## Layered Virtual Machine (LVM)
-
-Layered Virtual Machine (LVM) technology represents a significant advancement in terms of smart contract execution. This innovative approach enables the support of various frontend smart contract types, such as EVM/CairoVM, and backend zero-knowledge proof verifiers, including ZK-STARKs and ZK-SNARKs (Groth16, PLONK, etc.), while maintaining robust security measures and enhancing computational flexibility.
-
-![Layered Virtual Machine](LVM.png)
-
-Supporting multiple frontend smart contract types can easily attract developers from various blockchain ecosystems. For instance, EVM is a widely used smart contract platform with its own bytecode and execution environment. By integrating support for EVM within the LVM framework, developers can leverage existing EVM-based smart contracts seamlessly while also benefiting from enhanced execution capabilities provided by the layered architecture.
-
-On the backend side, supporting various zero-knowledge proof generators provides more optimization possibilities for the disputing process without compromising existing functionalities. In the future, when more succinct and efficient zero-knowledge proof systems emerge, Bitlayer's flexibility will allow for quick adaptation essential for keeping pace with evolving blockchain standards, emerging technologies, and changing user requirements.
-
-Check our [Bitlayer Core Technology: DLC and Its Optimization Considerations](https://medium.com/@Bitlayer/bitlayer-core-technology-dlc-and-its-optimization-considerations-6fc5ebaae92c) for more.
+In terms of Layer 1 verification, autonomous asset escape, secure asset bridging, and EVM compatibility, Bitlayer exhibits superior performance compared to existing Bitcoin Layer 2 solutions such as Lightning Network and Stacks.
