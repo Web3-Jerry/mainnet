@@ -12,7 +12,10 @@ We currently support Solidity up to version v0.8.23. Updates for newer versions 
 
 :::
 
-## Bitlayer Mainnet
+## Network Configuration
+
+
+### Bitlayer Mainnet
 
 | Parameter                   | Value                                                                                    |
 | --------------------------- | ---------------------------------------------------------------------------------------- |
@@ -26,7 +29,7 @@ We currently support Solidity up to version v0.8.23. Updates for newer versions 
 
 1.  The "currency symbol" is required by some wallets like MetaMask.
 
-## Bitlayer Testnet
+### Bitlayer Testnet
 
 | Parameter                   | Value                                                                                      |
 | --------------------------- | ------------------------------------------------------------------------------------------ |
@@ -40,7 +43,7 @@ We currently support Solidity up to version v0.8.23. Updates for newer versions 
 
 Here are the quick access commands for the Bitlayer Testnet:
 
-### Hardhat
+#### Hardhat
 
 Modify your Hardhat config file `hardhat.config.ts` to point at the Bitlayer Testnet public RPC.
 
@@ -63,7 +66,7 @@ const config: HardhatUserConfig = {
 
 
 
-### Foundry
+#### Foundry
 
 To deploy using the Bitlayer Testnet Public RPC, run:
 
@@ -73,7 +76,7 @@ forge create ... --rpc-url=https://https://testnet-rpc.bitlayer.org/ --legacy
 
 
 
-### Remix Web IDE
+#### Remix Web IDE
 
 After compiling your contracts, the easiest way to deploy using Remix is by [setting up Metamask](https://docs.bitlayer.org/user-guide/setup#metamask), then selecting the **Bitlayer Testnet** network.
 
@@ -81,7 +84,7 @@ In the “Deploy and Run Transactions” tab, use the “Environment” drop-dow
 
 Connect your wallet and select the Bitlayer Testnet. Your account should be selected automatically in Remix, and you can click “Deploy.”
 
-### Truffle
+#### Truffle
 
 :::caution
 
@@ -106,7 +109,7 @@ module.exports = {
 }
 ```
 
-### Brownie
+#### Brownie
 
 To add the Bitlayer Testnet, run the following command:
 
@@ -158,7 +161,7 @@ To deploy on Bitlayer, run the following command. In this example, `token.py` is
 brownie run token.py --network Bitlayer
 ```
 
-### ethers.js
+#### ethers.js
 
 Setting up a Bitlayer Testnet provider in an `ethers` script:
 
@@ -170,7 +173,7 @@ import { ethers } from "ethers"
 const provider = new ethers.providers.JsonRpcProvider("https://testnet-rpc.bitlayer.org")
 ```
 
-### scaffold-eth
+#### scaffold-eth
 
 To deploy using Scaffold-eth, you’ll need to point both your Hardhat and React settings at the Bitlayer Testnet.
 
