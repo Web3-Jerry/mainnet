@@ -14,6 +14,6 @@ Here is a faucet directly distributes Bitlayer Testnet tokens: [https://www.bitl
 
 It may take a few seconds for them to appear, but you can check the status by looking for a transaction for your address in [Bitlayer Explorer](https://testnet-scan.bitlayer.org).
 
-![testnetscan](img/DeveloperResources/testnetscan.png)
+![testnetscan](/img/DeveloperResources/testnetscan.png)
 
 This faucet allows developers to request 0.05 BTC test tokens for use in development and testing. You can obtain Bitlayer Testnet tokens every 24 hours for development and the testnet token has no financial value and cannot be traded at a real price.
