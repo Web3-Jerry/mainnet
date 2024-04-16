@@ -10,7 +10,7 @@ If you want to interact with the Dapps on Bitlayer Testnet, your first stop is g
 
 Here is a faucet directly distributes Bitlayer Testnet tokens: [https://www.bitlayer.org/faucet](https://www.bitlayer.org/faucet)
 
-![faucet](img/DeveloperResources/faucet.png)
+![faucet](/img/DeveloperResources/faucet.png)
 
 It may take a few seconds for them to appear, but you can check the status by looking for a transaction for your address in [Bitlayer Explorer](https://testnet-scan.bitlayer.org).
 
