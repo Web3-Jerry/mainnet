@@ -46,7 +46,6 @@ graph-node:
 You can migrate your subgraph from bitlayer graph node or project local graph node to offical environment when the graph enables bitlayer.
 To migrate smoothly, please set dataSources.source.startBlock in subgraph.yaml, we suggest using the block in which the contract was created. 
 
-<br>
 
 ## Deploying a Subgraph
 
