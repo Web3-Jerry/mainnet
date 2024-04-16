@@ -5,7 +5,7 @@ sidebar_position: 2
 # About Bitlayer
 For users and developers alike, the fundamental concept of Bitlayer is outlined below:
 
-![alt text](intro.png)
+![intro](img/Introduction/intro.png)
 
 Bitlayer acts as a Layer 2 solution for Bitcoin, boasting **100% EVM and Ethereum toolchain compatibility**, with BTC as native token(gas token).
 

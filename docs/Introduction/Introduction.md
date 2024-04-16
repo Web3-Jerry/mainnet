@@ -5,7 +5,7 @@ sidebar_position: 1
 # Welcome
 ##   
 
-![The first bitcoin security-equivalent Layer 2 based on BitVM](FA_Bitlayer-Logo-horizontal.png)
+![The first bitcoin security-equivalent Layer 2 based on BitVM](img/Introduction/FA_Bitlayer-Logo-horizontal.png)
 
 ### Explore Bitlayer Technical Documentation
 

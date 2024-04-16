@@ -11,6 +11,8 @@ Explore transactions, blocks, and addresses on the Bitlayer network using the pr
 Access the Bitlayer testnet block explorer here:
 - [Bitlayer Testnet Explorer](https://testnet-scan.bitlayer.org)
 
+![testnetscan](img/DeveloperResources/testnetscan.png)
+
 ## Mainnet
 
 Access the Bitlayer mainnet block explorer here:

@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Technical Architecture
 
-![Technical Architecture](Architecture.png)
+![Technical Architecture](img/Introduction/Architecture.png)
 
 Bitlayer's solution synthesizes the technical characteristics of BitVM, DLC|BitVM, and various XVMs (such as EVM, MoveVM), addressing three major challenges: Layer 1 verification, asset bridging, and enriching state transition expressions.
 
