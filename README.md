@@ -1,23 +1,33 @@
-# Bitlayer docs
+# Website
 
-## Edit
-```
-git clone git@github.com:bitlayer-org/bitlayer-org.github.io.git 
-git checkout -b main origin/main
-...
-git add .
-git commit -m"update doc"
-git push
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+
+## Installation
+
+```console
+yarn install
 ```
 
-## Preview locally
+## Local Development
 
-```bash
-mkdocs serve
+```console
+yarn start
 ```
 
-## Publish
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+
+## Build
+
+```console
+yarn build
 ```
-git checkout main
-mkdocs gh-deploy 
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Deployment
+
+```console
+GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 ```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
