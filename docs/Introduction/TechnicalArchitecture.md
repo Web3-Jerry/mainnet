@@ -35,3 +35,5 @@ Layered Virtual Machine (LVM) technology represents a significant advancement in
 Supporting multiple frontend smart contract types can easily attract developers from various blockchain ecosystems. For instance, EVM is a widely used smart contract platform with its own bytecode and execution environment. By integrating support for EVM within the LVM framework, developers can leverage existing EVM-based smart contracts seamlessly while also benefiting from enhanced execution capabilities provided by the layered architecture.
 
 On the backend side, supporting various zero-knowledge proof generators provides more optimization possibilities for the disputing process without compromising existing functionalities. In the future, when more succinct and efficient zero-knowledge proof systems emerge, Bitlayer's flexibility will allow for quick adaptation essential for keeping pace with evolving blockchain standards, emerging technologies, and changing user requirements.
+
+Check our [Bitlayer Core Technology: DLC and Its Optimization Considerations](https://medium.com/@Bitlayer/bitlayer-core-technology-dlc-and-its-optimization-considerations-6fc5ebaae92c) for more.

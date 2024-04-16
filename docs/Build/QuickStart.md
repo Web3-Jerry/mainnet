@@ -27,7 +27,8 @@ We currently support Solidity up to version v0.8.23. Updates for newer versions 
 | Contract Addresses          | Refer to the [Contract Addresses page](../Build/Contracts)                         |
 | Connect Wallet              | [Click here to connect your wallet to Bitlayer Mainnet](https://chainlist.org/?search=bitlayer) |
 
-1.  The "currency symbol" is required by some wallets like MetaMask.
+[Introducing Bitlayer Mainnet-V1: Unlocking the Potential of Bitcoin](https://medium.com/@Bitlayer/introducing-bitlayer-mainnet-v1-unlocking-the-potential-of-bitcoin-56c5fa2159fd) 
+Click the above link to know more about our Mainnet-V1.
 
 ### Bitlayer Testnet
 
