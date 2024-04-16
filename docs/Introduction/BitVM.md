@@ -30,6 +30,8 @@ Learn more about BitVM's innovations and how they can transform the Bitcoin land
 
 - [Experiment of BitVM White Paper](https://bitlayerlabs.notion.site/Experiment-of-BitVM-White-Paper-ef87e719001e4e2d83765c68f1bb8443)
 - [Research Repository](https://github.com/bitlayer-org/BitVM-Research)
+- [Introducing Bitlayer: The First Bitcoin Security-Equivalent Layer 2 Based on BitVM Scheme](https://medium.com/bitlayer/introducing-bitlayer-the-first-bitcoin-security-equivalent-layer-2-based-on-bitvm-scheme-dadbd2795524)
+- [BitVM And Its Optimization Considerations](https://medium.com/@Bitlayer/bitvm-and-its-optimization-considerations-007da599d8ac)
 
 ## Engage with the Community
 
