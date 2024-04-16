@@ -24,7 +24,7 @@ We currently support Solidity up to version v0.8.23. Updates for newer versions 
 | Currency Symbol             | BTC                                                                                      |
 | Explorer                    | [https://www.btrscan.com](https://www.btrscan.com)                                      |
 | Public RPC URLs             | [https://rpc.bitlayer.org](https://rpc.bitlayer.org), [https://rpc.bitlayer-rpc.com](https://rpc.bitlayer-rpc.com), [https://rpc.ankr.com/bitlayer](https://rpc.ankr.com/bitlayer) |
-| Contract Addresses          | Refer to the [Contract Addresses page](../Build/Contracts)                         |
+| Contract Addresses          | Refer to the [Contract Addresses page](../BitlayerNetwork/Contracts)                         |
 | Connect Wallet              | [Click here to connect your wallet to Bitlayer Mainnet](https://chainlist.org/?search=bitlayer) |
 
 [Introducing Bitlayer Mainnet-V1: Unlocking the Potential of Bitcoin](https://medium.com/@Bitlayer/introducing-bitlayer-mainnet-v1-unlocking-the-potential-of-bitcoin-56c5fa2159fd) 
@@ -40,7 +40,7 @@ Click the above link to know more about our Mainnet-V1.
 | Currency Symbol | `BTC`                                      |
 | Explorer                    | [https://testnet-scan.bitlayer.org](https://testnet-scan.bitlayer.org)         |
 | Public RPC URL              | [https://testnet-rpc.bitlayer.org](https://testnet-rpc.bitlayer.org)                                 |
-| Contract Addresses          | Refer to the [Contract Addresses page](../Build/Contracts)                         |
+| Contract Addresses          | Refer to the [Contract Addresses page](../BitlayerNetwork/Contracts)                         |
 | Connect Wallet              | [Click here to connect your wallet to Bitlayer Testnet](https://chainlist.org/?search=bitlayer&testnets=true) |
 
 Here are the quick access commands for the Bitlayer Testnet:
