@@ -15,6 +15,7 @@ This reference guide provides a listing of the different Bitlayer networks and p
 | Currency Symbol             | BTC                                                                                      |
 | Explorer                    | [https://www.btrscan.com](https://www.btrscan.com)                                      |
 | Public RPC URLs             | [https://rpc.bitlayer.org](https://rpc.bitlayer.org), [https://rpc.bitlayer-rpc.com](https://rpc.bitlayer-rpc.com), [https://rpc.ankr.com/bitlayer](https://rpc.ankr.com/bitlayer) |
+| WebSocket              | <div>wss://ws.bitlayer.org</div><div>wss://ws.bitlayer-rpc.com</div>                                 |
 | Contract Addresses          | Refer to the [Contract Addresses page](../BitlayerNetwork/Contracts)                         |
 | Connect Wallet              | [Click here to connect your wallet to Bitlayer Mainnet](https://chainlist.org/?search=bitlayer) |
 
