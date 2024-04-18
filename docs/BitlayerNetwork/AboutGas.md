@@ -19,4 +19,4 @@ MetaMask automatically recommends a minimum "Priority Fee" (`maxPriorityFeePerGa
 
 Here's a screenshot of how to set the `Priority Fee`:
 
-![alt text](</img/BitlayerNetwork/metamaskgas.png>)
+![metamaskgas](</img/BitlayerNetwork/metamaskgas.png>)
