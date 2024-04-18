@@ -29,8 +29,7 @@ This reference guide provides a listing of the different Bitlayer networks and p
 | Currency Symbol | `BTC`                                      |
 | Explorer                    | [https://testnet-scan.bitlayer.org](https://testnet-scan.bitlayer.org)         |
 | Public RPC URL              | [https://testnet-rpc.bitlayer.org](https://testnet-rpc.bitlayer.org)                                 |
-| WebSocket              | wss://testnet-ws.bitlayer.org     
-                           wss://testnet-ws.bitlayer-rpc.com                                 |
+| WebSocket              | wss://testnet-ws.bitlayer.org  <br>  wss://testnet-ws.bitlayer-rpc.com                                 |
 | Contract Addresses          | Refer to the [Contract Addresses page](../BitlayerNetwork/Contracts)                         |
 | Connect Wallet              | [Click here to connect your wallet to Bitlayer Testnet](https://chainlist.org/?search=bitlayer&testnets=true) |
 
